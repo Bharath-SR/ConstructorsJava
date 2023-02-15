@@ -1,0 +1,25 @@
+
+public class ConstructorCalling {
+
+	//ConstructorCalling is done using this keyword
+	
+	ConstructorCalling(){
+		System.out.println("0-arg constructor");
+	}
+	ConstructorCalling(int a){
+		System.out.println("1-arg constructor");
+	}
+	ConstructorCalling(int a,int b){
+		System.out.println("2-arg constructor");
+	}
+	ConstructorCalling(int a,int b, int c){
+		System.out.println("3-arg constructor");
+	}
+	public static void main(String[] args) {
+		//object creation
+		ConstructorCalling cc=new ConstructorCalling();
+		
+
+	}
+
+}
